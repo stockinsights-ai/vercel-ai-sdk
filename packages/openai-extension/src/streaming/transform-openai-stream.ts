@@ -5,8 +5,12 @@ import {
   LanguageModelV2StreamPart,
   LanguageModelV2Usage,
   SharedV2ProviderMetadata,
-} from '@ai-sdk/provider';
-import { ParseResult, isParsableJson, generateId } from '@ai-sdk/provider-utils';
+} from '../../../provider/src';
+import {
+  ParseResult,
+  isParsableJson,
+  generateId,
+} from '../../../provider-utils/src';
 import { z } from 'zod/v4';
 import { openaiErrorDataSchema } from '../openai-error';
 import { getResponseMetadata } from '../chat/get-response-metadata';

@@ -1,5 +1,5 @@
-import { LanguageModelV2StreamPart } from '@ai-sdk/provider';
-import { parseJsonEventStream } from '@ai-sdk/provider-utils';
+import { LanguageModelV2StreamPart } from '../../../provider/src';
+import { parseJsonEventStream } from '../../../provider-utils/src';
 import { describe, expect, it } from 'vitest';
 import {
   transformOpenAIStream,
